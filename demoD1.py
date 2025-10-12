@@ -1,3 +1,5 @@
+#Winicios Ivan Ulrich - Matheus Fritzen - Gabriel Puff
+
 """
 Script de demonstração para o Grupo de Dados 1 (Iris Dataset)
 ==============================================================

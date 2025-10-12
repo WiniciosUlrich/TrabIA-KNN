@@ -1,3 +1,5 @@
+#Winicios Ivan Ulrich - Matheus Fritzen - Gabriel Puff
+
 """
 Função para normalizar dados
 """

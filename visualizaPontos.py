@@ -1,3 +1,5 @@
+#Winicios Ivan Ulrich - Matheus Fritzen - Gabriel Puff
+
 """
 Função para visualizar dados em gráficos 2D
 """

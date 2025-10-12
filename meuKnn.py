@@ -1,3 +1,5 @@
+#Winicios Ivan Ulrich - Matheus Fritzen - Gabriel Puff
+
 """
 Função para implementar o classificador k-Nearest Neighbour (k-NN)
 """
