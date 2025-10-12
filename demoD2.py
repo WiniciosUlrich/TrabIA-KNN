@@ -44,7 +44,7 @@ print(f"  Treinamento: {grupoTrain.shape} (exemplos x características)")
 print(f"  Teste: {grupoTest.shape} (exemplos x características)")
 print(f"  Classes: {np.unique(trainRots)}")
 
-# Mostrar estatísticas dos dados para entender a escala
+# Mostrar estatísticas dos dados para entender a escala 
 print(f"\nEstatísticas dos dados de treinamento:")
 print(f"  Mínimo por característica: {np.min(grupoTrain, axis=0)}")
 print(f"  Máximo por característica: {np.max(grupoTrain, axis=0)}")

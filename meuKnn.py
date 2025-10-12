@@ -25,7 +25,7 @@ def meuKnn(dadosTrain, rotuloTrain, dadosTeste, k):
     # Lista para armazenar as predições
     predicoes = []
     
-    # Para cada exemplo de teste
+    # Para cada exemplo de teste 
     for exemplo_teste in dadosTeste:
         # Lista para armazenar (distância, índice) de cada exemplo de treinamento
         distancias = []
