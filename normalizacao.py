@@ -26,8 +26,8 @@ def normalizacao(dadosTrain, dadosTest):
     # Criar o normalizador
     scaler = StandardScaler()
     
-    # Ajustar (fit) o scaler aos dados de treinamento e transformá-los
-    # O fit calcula a média e desvio padrão de cada característica
+    # Ajustar (fit) o scaler aos dados de treinamento e transformá-los 
+    # O fit calcula a média e desvio padrão de cada característica 
     dadosTrain_norm = scaler.fit_transform(dadosTrain)
     
     # Transformar os dados de teste usando os mesmos parâmetros

@@ -18,7 +18,7 @@ def getDadosRotulo(dados, rotulos, rotulo, indice):
     """
     ret = []
     for idx in range(0, len(dados)):
-        # Se o rótulo do exemplo atual for igual ao rótulo buscado 
+        # Se o rótulo do exemplo atual for igual ao rótulo buscado
         if(rotulos[idx] == rotulo):
             # Adiciona o valor da dimensão especificada
             ret.append(dados[idx][indice])        
