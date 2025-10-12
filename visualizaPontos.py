@@ -26,7 +26,7 @@ def getDadosRotulo(dados, rotulos, rotulo, indice):
 
 def visualizaPontos(dados, rotulos, d1, d2):
     """
-    Visualiza pontos em 2D para diferentes classes.
+    Visualiza pontos em 2D para diferentes classes. 
     
     Cria um gráfico de dispersão (scatter plot) mostrando os dados
     em duas dimensões, com cores diferentes para cada classe.
