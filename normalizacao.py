@@ -3,6 +3,8 @@
 """
 Função para normalizar dados
 """
+
+
 from sklearn.preprocessing import StandardScaler
 import numpy as np
 
@@ -34,7 +36,6 @@ def normalizacao(dadosTrain, dadosTest):
     
     # Transformar os dados de teste usando os mesmos parâmetros
     # (média e desvio padrão calculados do treinamento)
-    # IMPORTANTE: Não usar fit nos dados de teste para evitar vazamento de dados
     dadosTest_norm = scaler.transform(dadosTest)
     
     return dadosTrain_norm, dadosTest_norm

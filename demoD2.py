@@ -47,14 +47,14 @@ print(f"  Teste: {grupoTest.shape} (exemplos x características)")
 print(f"  Classes: {np.unique(trainRots)}")
 
 # Mostrar estatísticas dos dados para entender a escala 
-print(f"\nEstatísticas dos dados de treinamento:")
-print(f"  Mínimo por característica: {np.min(grupoTrain, axis=0)}")
-print(f"  Máximo por característica: {np.max(grupoTrain, axis=0)}")
-print(f"  Média por característica:  {np.mean(grupoTrain, axis=0)}")
-print(f"\n  OBSERVAÇÃO: As características têm escalas muito diferentes!")
-print(f"  - Álcool está em torno de 12-14")
-print(f"  - Prolina está em torno de 500-1600")
-print(f"  - Isso afeta o cálculo da distância Euclidiana!")
+# print(f"\nEstatísticas dos dados de treinamento:")
+# print(f"  Mínimo por característica: {np.min(grupoTrain, axis=0)}")
+# print(f"  Máximo por característica: {np.max(grupoTrain, axis=0)}")
+# print(f"  Média por característica:  {np.mean(grupoTrain, axis=0)}")
+# print(f"\n  OBSERVAÇÃO: As características têm escalas muito diferentes!")
+# print(f"  - Álcool está em torno de 12-14")
+# print(f"  - Prolina está em torno de 500-1600")
+# print(f"  - Isso afeta o cálculo da distância Euclidiana!")
 
 # ============================================================================
 # Q2.1: Aplique seu kNN a este problema. Qual é a sua acurácia?

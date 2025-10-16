@@ -31,19 +31,19 @@ grupoTrain = mat['trainSet']
 testRots = mat['testLabs'].flatten()
 trainRots = mat['trainLabs'].flatten()
 
-print(f"\nDados carregados:")
-print(f"  Treinamento: {grupoTrain.shape} (exemplos x características)")
-print(f"  Teste: {grupoTest.shape} (exemplos x características)")
-print(f"  Classes: {np.unique(trainRots)}")
-print(f"  Distribuição de classes (treino): {np.bincount(trainRots)[1:]}")
-print(f"  Distribuição de classes (teste):  {np.bincount(testRots)[1:]}")
+# print(f"\nDados carregados:")
+# print(f"  Treinamento: {grupoTrain.shape} (exemplos x características)")
+# print(f"  Teste: {grupoTest.shape} (exemplos x características)")
+# print(f"  Classes: {np.unique(trainRots)}")
+# print(f"  Distribuição de classes (treino): {np.bincount(trainRots)[1:]}")
+# print(f"  Distribuição de classes (teste):  {np.bincount(testRots)[1:]}")
 
-# Analisar estatísticas dos dados
-print(f"\nEstatísticas dos dados de treinamento:")
-print(f"  Mínimo: {np.min(grupoTrain, axis=0)}")
-print(f"  Máximo: {np.max(grupoTrain, axis=0)}")
-print(f"  Média:  {np.mean(grupoTrain, axis=0)}")
-print(f"\n  OBSERVAÇÃO: Características têm escalas diferentes!")
+# # Analisar estatísticas dos dados
+# print(f"\nEstatísticas dos dados de treinamento:")
+# print(f"  Mínimo: {np.min(grupoTrain, axis=0)}")
+# print(f"  Máximo: {np.max(grupoTrain, axis=0)}")
+# print(f"  Média:  {np.mean(grupoTrain, axis=0)}")
+# print(f"\n  OBSERVAÇÃO: Características têm escalas diferentes!")
 
 # ============================================================================
 # Q4.1: Aplique k-NN ao problema. Qual é a acurácia?
